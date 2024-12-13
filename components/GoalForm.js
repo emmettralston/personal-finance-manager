@@ -19,7 +19,6 @@ const GoalForm = () => {
                 deadline: deadline,
                 
             });
-            alert(response.data.message);
         }
         catch (error) {
             console.error('Error adding goal:', error);
