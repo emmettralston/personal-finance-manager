@@ -51,9 +51,4 @@ def get_goal(goal_id):
             'saved_amount': goal[4],
             'deadline': goal[5]}
     return goal_data
-    
-#name gaurd
-if __name__=='__main__':
-    add_user('tester', 'tester@example.com', 'password123')
-    user_transactions = get_transactions(1)
-    print(user_transactions)
+
