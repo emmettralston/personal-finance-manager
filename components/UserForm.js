@@ -34,7 +34,7 @@ const UserForm = () => {
                 type='password'
                 placeholder='Password'
                 value={password}
-                onChange={(e) => setEmail(e.target.value)}
+                onChange={(e) => setPassword(e.target.value)}
             />
         </form>
     );
