@@ -9,7 +9,6 @@ const UserForm = () => {
         e.preventDefault();
         try {
             const response = await addUser({ name, email, password });
-            alert(response.data.message);
         }
         catch (error) {
             console.error('Error adding user:', error);
