@@ -65,3 +65,7 @@ def get_goal(goal_id):
         return jsonify({'goal': goal_data})
     else:
         return jsonify({'message': 'Goal not found'}), 404
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
